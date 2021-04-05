@@ -3,40 +3,22 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int myValue = 10000;
+	    float myMinFloatValue = Float.MIN_VALUE;
+	    float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Minimum Value = "+ myMinFloatValue);
+        System.out.println("Flaot Maximum Value = "+ myMaxFloatValue);
 
-        int myMinIntValue = Integer.MIN_VALUE;
-        int myMaxIntValue = Integer.MAX_VALUE;
-        System.out.println("Integer Minimum Value = " + myMinIntValue);
-        System.out.println("Integer Maximum Value = " + myMaxIntValue);
-        System.out.println("Busted MAX value = " + (myMaxIntValue + 1));
-        System.out.println("Busted MIN value = " + (myMinIntValue - 1));
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double Minimum Value = "+ myMinDoubleValue);
+        System.out.println("Double Maximum Value = "+ myMaxDoubleValue);
 
-        int myMaxIntTest = 2_147_483_647;
-
-        byte myMinByteValue = Byte.MIN_VALUE;
-        byte myMaxByteValue = Byte.MAX_VALUE;
-        System.out.println("Byte Maximum Value : "+ myMinByteValue);
-        System.out.println("Byte Minimum Value : "+ myMaxByteValue);
-
-        short myMinShortValue = Short.MIN_VALUE;
-        short myMaxShortValue = Short.MAX_VALUE;
-        System.out.println("Short Minimum Value :"+ myMinShortValue);
-        System.out.println("Short Maximum Value :"+ myMaxShortValue);
-
-        long myLongValue = 100;
-        long myMinLongValue = Long.MIN_VALUE;
-        long myMaxLongValue = Long.MAX_VALUE;
-        System.out.println("Long Minimum Value : "+ myMinLongValue);
-        System.out.println("Long Maximum Value : "+ myMaxLongValue);
-        long s = 2_147_483_647_234L;
-        s = s + 1;
-
-        int myTotal = (myMinIntValue/2);
-
-        byte myNewByteValue = (byte) (myMinByteValue/ 2);
-        System.out.println(myNewByteValue);
-
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d;
+        System.out.println("MyIntValue = "+myIntValue);
+        System.out.println("MyFloatValue = "+myFloatValue);
+        System.out.println("MyDoubleValue = "+myDoubleValue);
 
     }
 }
