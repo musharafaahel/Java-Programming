@@ -3,22 +3,27 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    float myMinFloatValue = Float.MIN_VALUE;
-	    float myMaxFloatValue = Float.MAX_VALUE;
-        System.out.println("Float Minimum Value = "+ myMinFloatValue);
-        System.out.println("Flaot Maximum Value = "+ myMaxFloatValue);
+        char myChar = 'D';
+        char myUnicodeChar = '\u0044';
+        boolean myTrueBoolean = true;
+        boolean myFalseBoolean = false;
+        boolean isCustomerOverTwentyOne = true;
+        char myCopyrightChar = '\u00A9';
 
-        double myMinDoubleValue = Double.MIN_VALUE;
-        double myMaxDoubleValue = Double.MAX_VALUE;
-        System.out.println("Double Minimum Value = "+ myMinDoubleValue);
-        System.out.println("Double Maximum Value = "+ myMaxDoubleValue);
+        System.out.println(myCopyrightChar);
 
-        int myIntValue = 5 / 3;
-        float myFloatValue = 5f / 3f;
-        double myDoubleValue = 5d / 3d;
-        System.out.println("MyIntValue = "+myIntValue);
-        System.out.println("MyFloatValue = "+myFloatValue);
-        System.out.println("MyDoubleValue = "+myDoubleValue);
+        System.out.println(myChar);
+        System.out.println(myUnicodeChar);
+        System.out.println(myTrueBoolean);
+        System.out.println(myFalseBoolean);
+        System.out.println(isCustomerOverTwentyOne);
+
+        long myCharMinValue = Character.MIN_VALUE;
+        long myCharMaxValue = Character.MAX_VALUE;
+        System.out.println("Char Minimum Value = "+ myCharMinValue);
+        System.out.println("Char Maximum Value = "+ myCharMaxValue);
+
+
 
     }
 }
