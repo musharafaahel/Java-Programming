@@ -1,4 +1,4 @@
-abstract class JetKings
+  abstract class JetKings
 {
 	abstract int noOfComputers();	
 }
