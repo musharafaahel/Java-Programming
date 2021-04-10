@@ -19,7 +19,7 @@ class KKNagar extends JetKings
 	}
 }
 
-class AbstractDemo
+  class AbstractDemo
 {
 	public static void main(String[] args)
 	{
