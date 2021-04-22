@@ -1,4 +1,4 @@
-class CommandLine
+ class CommandLine
 {
 	public static void main(String args[])
 	{
