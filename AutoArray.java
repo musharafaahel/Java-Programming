@@ -1,4 +1,4 @@
-class AutoArray
+  class AutoArray
 {
 		public static void main(String[] args)
 	{
