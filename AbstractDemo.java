@@ -3,7 +3,7 @@ abstract class JetKings
 	abstract int noOfComputers();	
 }
 
-class TNagar extends JetKings
+  class TNagar extends JetKings
 {
 	int noOfComputers()
 	{
