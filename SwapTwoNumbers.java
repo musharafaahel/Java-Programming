@@ -8,9 +8,9 @@ public class SwapTwoNumbers {
 		System.out.println("First Number : "+ first);
 		System.out.println("Second Number : "+ second);
 		
-		float temporary = first;
+		int temporary = first;
 		first = second;
-		second = (int) temporary;
+		second = temporary;
 		
 		System.out.println("----After Swap----");
 		System.out.println("First Number : "+ first);
